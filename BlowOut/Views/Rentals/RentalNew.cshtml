@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "RentalNew";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header text-center bounce">
+            <strong>New Instrument Selection</strong>
+        </h1>
+    </div>
+</div>
+ 
+
+
+
+<!-- Projects Row -->
+<div class="row">
+    <div class="col-md-4 portfolio-item bounceInDown">
+        <a href="@Url.Action("details", "Rentals", new { name = "Trumpet", type = "new" })"><img src="~/Content/img/trumpet.jpg" class="img-rounded" alt="MusicInstruments" width="350" height="236"></a>
+        <h2 class="text-center">Trumpet</h2>
+    </div>
+    <div class="col-md-4 portfolio-item">
+        <a href="@Url.Action("details", "Rentals", new { name = "Trombone", type = "new" })"><img src="~/Content/img/trombone-1.jpg" class="img-rounded" alt="MusicInstruments" width="350" height="236"></a>
+        <h2 class="text-center">Trombone</h2>
+    </div>
+    <div class="col-md-4 portfolio-item">
+        <a href="@Url.Action("details", "Rentals", new { name = "Tuba", type = "new" })"><img src="~/Content/img/tuba.jpg" class="img-rounded" alt="MusicInstruments" width="350" height="236"></a>
+        <h2 class="text-center">Tuba</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4 portfolio-item">
+        <a href="@Url.Action("details", "Rentals", new { name = "Flute", type = "new" })"><img src="~/Content/img/flute.jpg" class="img-rounded" alt="MusicInstruments" width="350" height="236"></a>
+        <h2 class="text-center">Flute</h2>
+    </div>
+    <div class="col-md-4 portfolio-item">
+        <a href="@Url.Action("details", "Rentals", new { name = "Clarinet", type = "new" })"><img src="~/Content/img/clarinet.jpg" class="img-rounded" alt="MusicInstruments" width="350" height="236"></a>
+        <h2 class="text-center">Clarinet</h2>
+    </div>
+    <div class="col-md-4 portfolio-item">
+        <a href="@Url.Action("details", "Rentals", new { name = "Saxophone", type = "new" })"><img src="~/Content/img/saxohphone.jpg" class="img-rounded" alt="MusicInstruments" width="350" height="236"></a>
+        <h2 class="text-center">Saxophone</h2>
+    </div>
+</div>
+
+
+
+

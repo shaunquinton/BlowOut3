@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "BlowOut";
+}
+
+<div class="jumbotron my-jumbotron">
+    <h1>Welcome to Blowout</h1>
+    <p class="lead" color="red">
+        <i>
+            "It's easy to play any musical instrument: all you have to do is touch the right key
+            at the right time and the instrument will play itself”.
+        </i><br /> -Johann Sebastian Bach"
+    </p>
+   
+</div>
+
+<div class="row">
+    <div class=" col-md-12">
+        <p>
+             <h2 class="text-center"><strong>Rent a new or used instrument today!</strong></h2> <br /><h3 class="text-center">Explore our wide variety of new and used instruments online or in store</h3><br /><br />
+        </p>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-6 text-center" >
+        <h2>Rent used Instrument</h2>
+        <p>
+            <a href="@Url.Action("Rentalused","Rentals")"><img src="~/Content/img/53cf58ba4d1fcd093b8d5bc93ee3e734_large.jpg" class="img-rounded" alt="MusicInstruments" width="304" height="236">
+</p>
+        <p><a href="@Url.Action("Rentalused","Rentals")" class="btn btn-primary">Rent used &raquo;</a></p>
+    </div>
+    <div class="col-md-6 text-center">
+        <h2>Rent new Instrument</h2>
+        <p>
+            <a href="@Url.Action("RentalNew","Rentals")"><img src="~/Content/img/usedInstrument.jpg" class="img-rounded" alt="MusicInstruments" width="304" height="236"></a>
+</p>
+        <p><a href="@Url.Action("RentalNew","Rentals")" class="btn btn-primary">Rent new &raquo;</a></p>
+    </div>
+
+</div>

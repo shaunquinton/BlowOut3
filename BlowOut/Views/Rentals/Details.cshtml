@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header text-center bounce">
+            <strong>You've selected a @ViewBag.type @ViewBag.instrumentName</strong>
+        </h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">  
+       <h3 class="text-center">It will cost @ViewBag.price a month to rent</h3>     
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <img src="@ViewBag.filepath" class="img-rounded" alt="MusicInstruments" width="350" height="236">
+    </div>
+</div>
+
+
+
+
+
